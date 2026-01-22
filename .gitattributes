@@ -1,0 +1,7 @@
+LoRaStudio_v1.0.0-rc1_windows_Setup.exe filter=lfs diff=lfs merge=lfs -text
+LoRaStudio_latest_windows_Setup.exe filter=lfs diff=lfs merge=lfs -text
+latest/LoRaStudio_Windows_Setup.exe filter=lfs diff=lfs merge=lfs -text
+LoRaStudio_v1.1.0_Windows_Setup.exe filter=lfs diff=lfs merge=lfs -text
+LoRaStudio_v1.0.0/LoRaStudio_v1.0.0-rc1_windows_Setup.exe filter=lfs diff=lfs merge=lfs -text
+LoRaStudio_v1.1.0/LoRaStudio_v1.1.0_Windows_Setup.exe filter=lfs diff=lfs merge=lfs -text
+LoRaStudio_v1.3.1_windows_Setup.exe filter=lfs diff=lfs merge=lfs -text
