@@ -19,7 +19,7 @@ LoRa Studio is a demonstration and evaluation tool for the SemtechÂ® LoRa Plusâ„
 ## Download
 
 This gitHub project stores all releases version of LoRa Studio, hence it is strongly advised that you _do not_ clone this repository.
-Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.3.1_Windows_Setup.exe>
+Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.4.1_Windows_Setup.exe>
 
 You can also download the user guide but be aware that the application itself embeds it as documentation page.
 
