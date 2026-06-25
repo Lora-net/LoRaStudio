@@ -2,7 +2,7 @@
 
 ## Overview
 
-LoRa Studio is a demonstration and evaluation tool for the Semtech® LoRa Plus™ series radio chips. This software suite enables developers and engineers to explore the capabilities of the LR2021, LR2022 and LR2012 through an intuitive host-based interface that communicates with development kits to execute various radio demonstrations and tests.
+LoRa Studio is a demonstration and evaluation tool for the Semtech® LoRa Plus™ series radio chips. This software suite enables developers and engineers to explore the capabilities of the LR2021 through an intuitive host-based interface that communicates with development kits to execute various radio demonstrations and tests.
 
 ## Features
 
@@ -19,7 +19,7 @@ LoRa Studio is a demonstration and evaluation tool for the Semtech® LoRa Plus�
 ## Download
 
 This gitHub project stores all releases version of LoRa Studio, hence it is strongly advised that you _do not_ clone this repository.
-Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.6.5_windows_Setup.exe>
+Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.5.2_Windows_Setup.exe>
 
 You can also download the user guide but be aware that the application itself embeds it as documentation page.
 
@@ -39,10 +39,10 @@ You can also download the user guide but be aware that the application itself em
 
 ### Development Kit
 
-- Compatible Semtech LR20xx development kit (one of the following):
-  - Seeed Studio XIAO nRF54 module on expansion board with LR20xx module (official most common dev-kit)
-  - STMicroelectronics® Nucleo-L476RG with LR20xx expansion board and Arduino pinout adaptation board
-  - Nordic Semiconductor® nRF54-DK with LR20xx expansion board and Arduino pinout adaptation board
+- Compatible Semtech LR2021 development kit (one of the following):
+  - Seeed Studio XIAO nRF54 module on expansion board with LR2021 module (official most common dev-kit)
+  - STMicroelectronics® Nucleo-L476RG with LR2021 expansion board and Arduino pinout adaptation board
+  - Nordic Semiconductor® nRF54-DK with LR2021 expansion board and Arduino pinout adaptation board
 - USB cable for host connection
 - Power supply as battery pack for standalone running mode (measures on the field)
 
@@ -50,14 +50,15 @@ You can also download the user guide but be aware that the application itself em
 
 ### Option 1: Self-Extracting Installer (Windows)
 
-1. Download `LoRaStudio_v1.6.5_windows_Setup.exe`.
-2. Double-click the installer and follow the on-screen instructions. Prefer _User_ installation.
+1. Download `LoRaStudio-Setup-<PACKAGE_NAME>.exe`.
+2. Double-click the installer and follow the on-screen instructions.
 3. The installer will place all necessary files and create desktop shortcuts.
 4. Launch LoRa Studio from the Start Menu or desktop shortcut.
+Note: Prefer _user_ installation as _system_ installation, installing LoRa Studio on a computer that already has it will overwrite the previous version.
 
 ### Option 2: Standalone Windows Version
 
-1. Download `LoRaStudio-windows-v1.6.5.tar.gz`.
+1. Download `LoRaStudio-Windows-Standalone-<PACKAGE_NAME>.zip`.
 2. Extract the archive to your preferred location.
 3. Navigate to the extracted folder.
 4. Run `LoRaStudio.exe` to launch the application.
@@ -65,25 +66,30 @@ Note: Choose this if you would rather have multiple versions at your disposal.
 
 ### Option 3: Standalone Linux Version
 
-As any AppImage you can simply make it executable and run it as is or, if you need to finely manipulate LoRaStudio elements, you can extract it.
+1. Download `LoRaStudio-Linux-Standalone-<PACKAGE_NAME>.tar.gz`
+2. Extract the archive:
 
-1. Download `LoRaStudio-v1.6.5-linux-x86_64.AppImage`
+   ```bash
+   tar -xzf LoRaStudio-Linux-Standalone-<PACKAGE_NAME>.tar.gz
+   ```
 
-2. Make it executable:
+3. Navigate to the extracted folder:
 
-```bash
-chmod +x LoRaStudio-v1.6.5-linux-x86_64.AppImage
-```
+   ```bash
+   cd LoRaStudio-Linux
+   ```
 
-Double click on it, it shall self extract in a temp folder to execute.
+4. Make the binary executable (if needed):
 
-If you want to save time at application startup you can also extract it
+   ```bash
+   chmod +x lorastudio
+   ```
 
-```bash
-./LoRaStudio-v1.6.5-linux-x86_64.AppImage --appimage-extract
-```
+5. Run the application:
 
-This creates a squashfs-root folder where you shall find the application to run.
+   ```bash
+   ./lorastudio
+   ```
 
 ## Development Kit Setup
 
@@ -93,9 +99,9 @@ The kits are already flashed with Lora Studio software. However, you might want 
 
 The distribution includes three embedded firmware binaries for different development kit platforms:
 
-- `LoRaStudio_xiao_nrf54_v1.6.5.bin` - For Seeed Studio XIAO nRF54 modules
-- `LoRaStudio_nrf54_dk_v1.6.5.bin` - For Nordic nRF54-DK boards
-- `LoRaStudio_nucleo_l476rg_v1.6.5.bin` - For STM32 Nucleo-L476RG boards
+- `LoRaStudio_xiao_nrf54_<PACKAGE_NAME>.bin` - For Seeed Studio XIAO nRF54 modules
+- `LoRaStudio_nrf54_dk_<PACKAGE_NAME>.bin` - For Nordic nRF54-DK boards
+- `LoRaStudio_nucleo_l476rg_<PACKAGE_NAME>.bin` - For STM32 Nucleo-L476RG boards
 
 They can be found in the `binaries` folder in the Lora Studio installation folder.
 
@@ -153,7 +159,7 @@ Lora Studio consists of two main components:
 For additional documentation, technical support, or to report issues:
 
 - Refer to the documentation page in the application itself
-- Refer to the LR20xx datasheet and application notes
+- Refer to the LR2021 datasheet and application notes
 - Contact your Semtech representative
 
 ## License
@@ -162,11 +168,9 @@ Please refer to the LICENSE file included in this distribution for software lice
 
 ## Version Information
 
-**Current Version**: v1.6.5
-
-**Release Date**: June 26, 2026
-
-**Compatible Firmware Versions**: v1.6.5
+**Current Version**: <PACKAGE_NAME>
+**Release Date**: October 2025  
+**Compatible Firmware Versions**: <PACKAGE_NAME>
 
 ---
 
