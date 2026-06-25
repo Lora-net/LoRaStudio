@@ -19,7 +19,7 @@ LoRa Studio is a demonstration and evaluation tool for the SemtechÂ® LoRa Plusâ„
 ## Download
 
 This gitHub project stores all releases version of LoRa Studio, hence it is strongly advised that you _do not_ clone this repository.
-Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.6.5_windows_Setup.exe>
+Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.5.2_Windows_Setup.exe>
 
 You can also download the user guide but be aware that the application itself embeds it as documentation page.
 
@@ -64,25 +64,32 @@ Note: Prefer _user_ installation as _system_ installation, installing LoRa Studi
 4. Run `LoRaStudio.exe` to launch the application.
 Note: Choose this if you would rather have multiple versions at your disposal.
 
-### Option 3: Linux Version (AppImage)
+### Option 3: Standalone Linux Version
 
-As any AppImage you can simply make it executable and run it as is or, if you need to finely manipulate LoRaStudio elements, you can extract it.
+1. Download `LoRaStudio-Linux-Standalone-<PACKAGE_NAME>.tar.gz`
+2. Extract the archive:
 
-1. Download `LoRaStudio-v1.6.5-linux-x86_64.AppImage`
-2. Make it executable:
+   ```bash
+   tar -xzf LoRaStudio-Linux-Standalone-<PACKAGE_NAME>.tar.gz
+   ```
 
-    ```bash
-    chmod +x LoRaStudio-v1.6.5-linux-x86_64.AppImage
-    ```
-3. Double click on it, it shall self extract in a temp folder to execute.
+3. Navigate to the extracted folder:
 
-If you want to save time at startup you can also extract it
+   ```bash
+   cd LoRaStudio-Linux
+   ```
 
-    ```bash
-    ./LoRaStudio-v1.6.5-linux-x86_64.AppImage --appinage-extract
-    ```
-This creates a `squashfs-root` folder where you shall find the application to run.
+4. Make the binary executable (if needed):
 
+   ```bash
+   chmod +x lorastudio
+   ```
+
+5. Run the application:
+
+   ```bash
+   ./lorastudio
+   ```
 
 ## Development Kit Setup
 
