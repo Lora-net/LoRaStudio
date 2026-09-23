@@ -19,7 +19,7 @@ LoRa Studio is a demonstration and evaluation tool for the SemtechÂ® LoRa Plusâ„
 ## Download
 
 This gitHub project stores all releases version of LoRa Studio, hence it is strongly advised that you _do not_ clone this repository.
-Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.7.4_windows_Setup.exe>
+Simply download the file using the download link <https://github.com/Lora-net/LoRaStudio/blob/master/LoRaStudio_v1.6.5_windows_Setup.exe>
 
 You can also download the user guide but be aware that the application itself embeds it as documentation page.
 
@@ -50,14 +50,14 @@ You can also download the user guide but be aware that the application itself em
 
 ### Option 1: Self-Extracting Installer (Windows)
 
-1. Download `LoRaStudio_v1.7.4_windows_Setup.exe`.
+1. Download `LoRaStudio_v1.6.5_windows_Setup.exe`.
 2. Double-click the installer and follow the on-screen instructions. Prefer _User_ installation.
 3. The installer will place all necessary files and create desktop shortcuts.
 4. Launch LoRa Studio from the Start Menu or desktop shortcut.
 
 ### Option 2: Standalone Windows Version
 
-1. Download `LoRaStudio-windows-v1.7.4.tar.gz`.
+1. Download `LoRaStudio-windows-v1.6.5.tar.gz`.
 2. Extract the archive to your preferred location.
 3. Navigate to the extracted folder.
 4. Run `LoRaStudio.exe` to launch the application.
@@ -67,12 +67,12 @@ Note: Choose this if you would rather have multiple versions at your disposal.
 
 As any AppImage you can simply make it executable and run it as is or, if you need to finely manipulate LoRaStudio elements, you can extract it.
 
-1. Download `LoRaStudio-v1.7.4-linux-x86_64.AppImage`
+1. Download `LoRaStudio-v1.6.5-linux-x86_64.AppImage`
 
 2. Make it executable:
 
 ```bash
-chmod +x LoRaStudio-v1.7.4-linux-x86_64.AppImage
+chmod +x LoRaStudio-v1.6.5-linux-x86_64.AppImage
 ```
 
 Double click on it, it shall self extract in a temp folder to execute.
@@ -80,7 +80,7 @@ Double click on it, it shall self extract in a temp folder to execute.
 If you want to save time at application startup you can also extract it
 
 ```bash
-./LoRaStudio-v1.7.4-linux-x86_64.AppImage --appimage-extract
+./LoRaStudio-v1.6.5-linux-x86_64.AppImage --appimage-extract
 ```
 
 This creates a squashfs-root folder where you shall find the application to run.
@@ -93,9 +93,9 @@ The kits are already flashed with Lora Studio software. However, you might want 
 
 The distribution includes three embedded firmware binaries for different development kit platforms:
 
-- `LoRaStudio_xiao_nrf54_v1.7.4.bin` - For Seeed Studio XIAO nRF54 modules
-- `LoRaStudio_nrf54_dk_v1.7.4.bin` - For Nordic nRF54-DK boards
-- `LoRaStudio_nucleo_l476rg_v1.7.4.bin` - For STM32 Nucleo-L476RG boards
+- `LoRaStudio_xiao_nrf54_v1.6.5.bin` - For Seeed Studio XIAO nRF54 modules
+- `LoRaStudio_nrf54_dk_v1.6.5.bin` - For Nordic nRF54-DK boards
+- `LoRaStudio_nucleo_l476rg_v1.6.5.bin` - For STM32 Nucleo-L476RG boards
 
 They can be found in the `binaries` folder in the Lora Studio installation folder.
 
@@ -162,11 +162,11 @@ Please refer to the LICENSE file included in this distribution for software lice
 
 ## Version Information
 
-**Current Version**: v1.7.4
+**Current Version**: v1.6.5
 
-**Release Date**: September 17, 2026
+**Release Date**: June 26, 2026
 
-**Compatible Firmware Versions**: v1.7.4
+**Compatible Firmware Versions**: v1.6.5
 
 ---
 
